@@ -58,10 +58,10 @@ body {
   line-height: 1.6;
   /* This makes text easier to read by adding space between lines. */
 
-  color: #333;
+  color: black;
   /* This is the default text color (dark gray, almost black). */
 
-  background-color: #ffffff;
+  background-color: white;
   /*
     TODO #2: Change the background-color to something you like.
     You can use:
@@ -90,13 +90,14 @@ header {
     - text-align: center; (centers the text)
     - margin-bottom: 30px; (space below the header)
   */
-  background-color: #ffffff;
+  background-color: white;
   padding: 40 px 20px 60px 20px;
   /* TODO #3: Add your header styles here */
   margin-bottom: 30px;
 }
 
 .hero {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -112,7 +113,7 @@ header {
 */
 
 nav {
-  background-color: #333;
+  background-color: #012618;
   /* Dark background for the navigation bar */
 
   padding: 0;
@@ -154,7 +155,7 @@ nav a {
 
   text-decoration: none;
   /* Remove underline from links */
-
+  
   padding: 15px 25px;
   /* Add space inside each link (top/bottom, left/right) */
 
@@ -163,18 +164,18 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #0c461d;
   /* Darker background when mouse hovers over link */
 }
 
 nav a:active {
-  background-color: #777;
+  background-color: #0c461d;
   /* Even darker when link is clicked */
 }
 
 /* Style for the current page link (optional - you can add this later with JavaScript) */
 nav a.active {
-  background-color: #4a90e2;
+  background-color: #0c461d;
   /* Highlight the current page */
 }
 
@@ -189,7 +190,7 @@ header h1 {
    ============================================ */
 
 main {
-  max-width: 800px;
+  max-width: 1000px;
   /*
     TODO #5: Center your main content.
     Add these two properties:
@@ -212,13 +213,12 @@ section {
 
 section h2{
   font-size: 32px;
-  color: pink;
+  color: black;
   margin-bottom: 20px;
 }
 
 section p {
   margin-bottom: 15px;
-  color: palevioletred;
 }
 
 .about-content{
@@ -255,7 +255,7 @@ button {
   /* TODO #6: Add your button styles here */
 
   /* Default button styles - these make buttons look clickable */
-  background-color: #4a90e2;
+  background-color: #0c461d;
   color: white;
   padding: 12px 24px;
   border: none;
@@ -305,12 +305,13 @@ a button:hover {
    ============================================ */
 
 .project-card{
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color: #012618;
+  border: 1px solid #0c461d;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px #0c461d;
   margin-bottom: 20px;
+  color: white;
 }
 /*
   TODO #8: Create a "card" class that you can use to style sections.
@@ -400,7 +401,3 @@ img {
    4. Use your browser's Developer Tools (F12 or Right-click -> Inspect)
       to see if there are any errors.
 */
-
-@media_screen(max-width: 400px) {
-  
-}
